@@ -1,0 +1,11 @@
+<div class="farmer-profile">
+  <img [src]="farmer.imageUrl" alt="{{farmer.name}}" class="profile-pic" />
+  <h2>{{ farmer.name }}</h2>
+  <p>{{ farmer.bio }}</p>
+  <h3>Farm Produce</h3>
+  <div class="product-list">
+    <div *ngFor="let product of farmer.products" class="product-item">
+      {{ product.name }} - {{ product.price }} INR
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+.homepage {
+  text-align: center;
+  padding: 2em;
+  background-color: #f4f4f9;
+}
+header {
+  background-color: #88c57d;
+  color: white;
+  padding: 2em;
+  border-radius: 8px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+nav li {
+  margin: 0 1em;
+}
+nav a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-weight: bold;
+}
